@@ -1,0 +1,141 @@
+[01-Jun-2019 14:27:46 UTC] PHP Warning:  require(/home/ubuntu/workspace/php/products../php/config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 14:27:46 UTC] PHP Stack trace:
+[01-Jun-2019 14:27:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:27:46 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/php/products../php/config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 14:27:46 UTC] PHP Stack trace:
+[01-Jun-2019 14:27:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:28:16 UTC] PHP Warning:  require(/home/ubuntu/workspace/php/products../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 14:28:16 UTC] PHP Stack trace:
+[01-Jun-2019 14:28:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:28:16 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/php/products../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 14:28:16 UTC] PHP Stack trace:
+[01-Jun-2019 14:28:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:30:12 UTC] PHP Warning:  require(/home/ubuntu/workspace/php/products../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 14:30:12 UTC] PHP Stack trace:
+[01-Jun-2019 14:30:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:30:12 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/php/products../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 14:30:12 UTC] PHP Stack trace:
+[01-Jun-2019 14:30:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:32:22 UTC] PHP Warning:  require(/home/ubuntu/workspace/php/products../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 14:32:22 UTC] PHP Stack trace:
+[01-Jun-2019 14:32:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:32:22 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/php/products../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 14:32:22 UTC] PHP Stack trace:
+[01-Jun-2019 14:32:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:32:37 UTC] PHP Warning:  require(/home/ubuntu/workspace/php/products../objects/test.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 4
+[01-Jun-2019 14:32:37 UTC] PHP Stack trace:
+[01-Jun-2019 14:32:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:32:37 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/php/products../objects/test.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 4
+[01-Jun-2019 14:32:37 UTC] PHP Stack trace:
+[01-Jun-2019 14:32:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:33:06 UTC] PHP Fatal error:  Class 'Database' not found in /home/ubuntu/workspace/php/products/read.php on line 5
+[01-Jun-2019 14:33:06 UTC] PHP Stack trace:
+[01-Jun-2019 14:33:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:33:46 UTC] PHP Fatal error:  Class 'Product' not found in /home/ubuntu/workspace/php/products/read.php on line 8
+[01-Jun-2019 14:33:46 UTC] PHP Stack trace:
+[01-Jun-2019 14:33:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:34:29 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 23
+[01-Jun-2019 14:34:29 UTC] PHP Stack trace:
+[01-Jun-2019 14:34:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:34:29 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[01-Jun-2019 14:38:44 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 22
+[01-Jun-2019 14:38:44 UTC] PHP Stack trace:
+[01-Jun-2019 14:38:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:38:44 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[01-Jun-2019 14:42:38 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 23
+[01-Jun-2019 14:42:38 UTC] PHP Stack trace:
+[01-Jun-2019 14:42:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:42:38 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[01-Jun-2019 14:47:39 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 23
+[01-Jun-2019 14:47:39 UTC] PHP Stack trace:
+[01-Jun-2019 14:47:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:47:39 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[01-Jun-2019 14:47:42 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 23
+[01-Jun-2019 14:47:42 UTC] PHP Stack trace:
+[01-Jun-2019 14:47:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:47:42 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[01-Jun-2019 14:47:54 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 23
+[01-Jun-2019 14:47:54 UTC] PHP Stack trace:
+[01-Jun-2019 14:47:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:47:54 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[01-Jun-2019 14:55:50 UTC] PHP Fatal error:  Call to a member function readAll() on a non-object in /home/ubuntu/workspace/php/products/read.php on line 10
+[01-Jun-2019 14:55:50 UTC] PHP Stack trace:
+[01-Jun-2019 14:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:58:31 UTC] PHP Fatal error:  Call to undefined method Products::readAll() in /home/ubuntu/workspace/php/products/read.php on line 10
+[01-Jun-2019 14:58:31 UTC] PHP Stack trace:
+[01-Jun-2019 14:58:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:59:28 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 23
+[01-Jun-2019 14:59:28 UTC] PHP Stack trace:
+[01-Jun-2019 14:59:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 14:59:28 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[01-Jun-2019 15:01:09 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 22
+[01-Jun-2019 15:01:09 UTC] PHP Stack trace:
+[01-Jun-2019 15:01:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 15:01:09 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[01-Jun-2019 15:01:40 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) in /home/ubuntu/workspace/php/objects/Products.php on line 28
+[01-Jun-2019 15:01:40 UTC] PHP Stack trace:
+[01-Jun-2019 15:01:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 15:02:52 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 22
+[01-Jun-2019 15:02:52 UTC] PHP Stack trace:
+[01-Jun-2019 15:02:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 15:02:52 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[01-Jun-2019 15:03:00 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 22
+[01-Jun-2019 15:03:00 UTC] PHP Stack trace:
+[01-Jun-2019 15:03:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 15:03:00 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[01-Jun-2019 15:09:00 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/php/objects/Products.php on line 22
+[01-Jun-2019 15:09:00 UTC] PHP Stack trace:
+[01-Jun-2019 15:09:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 15:09:00 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[01-Jun-2019 15:09:27 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 22
+[01-Jun-2019 15:09:27 UTC] PHP Stack trace:
+[01-Jun-2019 15:09:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[01-Jun-2019 15:09:27 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[02-Jun-2019 07:30:34 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 22
+[02-Jun-2019 07:30:34 UTC] PHP Stack trace:
+[02-Jun-2019 07:30:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[02-Jun-2019 07:30:34 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[02-Jun-2019 07:34:18 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 22
+[02-Jun-2019 07:34:18 UTC] PHP Stack trace:
+[02-Jun-2019 07:34:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[02-Jun-2019 07:34:18 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:13
+[02-Jun-2019 07:35:16 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 22
+[02-Jun-2019 07:35:16 UTC] PHP Stack trace:
+[02-Jun-2019 07:35:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[02-Jun-2019 07:35:16 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[02-Jun-2019 07:37:13 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 18
+[02-Jun-2019 07:37:13 UTC] PHP Stack trace:
+[02-Jun-2019 07:37:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[02-Jun-2019 07:37:13 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[02-Jun-2019 07:37:40 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 22
+[02-Jun-2019 07:37:40 UTC] PHP Stack trace:
+[02-Jun-2019 07:37:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[02-Jun-2019 07:37:40 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[02-Jun-2019 07:41:17 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 22
+[02-Jun-2019 07:41:17 UTC] PHP Stack trace:
+[02-Jun-2019 07:41:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[02-Jun-2019 07:41:17 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[02-Jun-2019 07:41:43 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 23
+[02-Jun-2019 07:41:43 UTC] PHP Stack trace:
+[02-Jun-2019 07:41:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[02-Jun-2019 07:41:43 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[02-Jun-2019 07:42:09 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 23
+[02-Jun-2019 07:42:09 UTC] PHP Stack trace:
+[02-Jun-2019 07:42:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[02-Jun-2019 07:42:09 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[02-Jun-2019 07:42:28 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 22
+[02-Jun-2019 07:42:28 UTC] PHP Stack trace:
+[02-Jun-2019 07:42:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[02-Jun-2019 07:42:28 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[02-Jun-2019 07:45:05 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 22
+[02-Jun-2019 07:45:05 UTC] PHP Stack trace:
+[02-Jun-2019 07:45:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[02-Jun-2019 07:45:05 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[02-Jun-2019 07:45:56 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 22
+[02-Jun-2019 07:45:56 UTC] PHP Stack trace:
+[02-Jun-2019 07:45:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[02-Jun-2019 07:45:56 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10
+[02-Jun-2019 07:46:05 UTC] PHP Fatal error:  Call to undefined method Database::prepare() in /home/ubuntu/workspace/php/objects/Products.php on line 22
+[02-Jun-2019 07:46:05 UTC] PHP Stack trace:
+[02-Jun-2019 07:46:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/products/read.php:0
+[02-Jun-2019 07:46:05 UTC] PHP   2. Products->readAll() /home/ubuntu/workspace/php/products/read.php:10

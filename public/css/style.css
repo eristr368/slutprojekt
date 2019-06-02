@@ -1,0 +1,41 @@
+body {
+  padding-top: 56px;
+}
+
+.type-filter {
+    font-size: 15px;
+}
+
+.filter-space {
+    width:20px;
+}
+
+.active-cyan-2 input[type=text]:focus:not([readonly]) {
+border-top:none;
+border-left: none;
+border-right:none;
+border-radius: 0px;
+border-bottom: 1px solid #4dd0e1;
+box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.active-cyan input[type=text] {
+border-top:none;
+border-left: none;
+border-right:none;
+border-radius: 0px;
+border-bottom: 1px solid #4dd0e1;
+box-shadow: 0 1px 0 0 #4dd0e1;
+}
+
+.search-icon {
+    padding-top: 13px;
+    margin-left: 10px;
+}
+
+.product-box {
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    
+}

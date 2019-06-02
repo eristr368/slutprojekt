@@ -1,0 +1,364 @@
+[01-Jun-2019 12:12:10 UTC] PHP Warning:  require_once(read.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 12:12:10 UTC] PHP Stack trace:
+[01-Jun-2019 12:12:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:12:10 UTC] PHP Fatal error:  require_once(): Failed opening required 'read.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 12:12:10 UTC] PHP Stack trace:
+[01-Jun-2019 12:12:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:12:58 UTC] PHP Fatal error:  Class 'Product' not found in /home/ubuntu/workspace/php/products/read.php on line 8
+[01-Jun-2019 12:12:58 UTC] PHP Stack trace:
+[01-Jun-2019 12:12:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:12:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 12:13:50 UTC] PHP Warning:  include_once(../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 12:13:50 UTC] PHP Stack trace:
+[01-Jun-2019 12:13:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:13:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 12:13:50 UTC] PHP Warning:  include_once(): Failed opening '../config/Database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 12:13:50 UTC] PHP Stack trace:
+[01-Jun-2019 12:13:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:13:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 12:13:50 UTC] PHP Warning:  include_once(../objects/Products.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 3
+[01-Jun-2019 12:13:50 UTC] PHP Stack trace:
+[01-Jun-2019 12:13:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:13:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 12:13:50 UTC] PHP Warning:  include_once(): Failed opening '../objects/Products.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 3
+[01-Jun-2019 12:13:50 UTC] PHP Stack trace:
+[01-Jun-2019 12:13:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:13:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 12:13:50 UTC] PHP Fatal error:  Class 'Database' not found in /home/ubuntu/workspace/php/products/read.php on line 5
+[01-Jun-2019 12:13:50 UTC] PHP Stack trace:
+[01-Jun-2019 12:13:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:13:50 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 12:14:26 UTC] PHP Warning:  include_once(../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 12:14:26 UTC] PHP Stack trace:
+[01-Jun-2019 12:14:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:14:26 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 12:14:26 UTC] PHP Warning:  include_once(): Failed opening '../config/Database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 12:14:26 UTC] PHP Stack trace:
+[01-Jun-2019 12:14:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:14:26 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 12:14:26 UTC] PHP Warning:  include_once(../objects/Products.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 3
+[01-Jun-2019 12:14:26 UTC] PHP Stack trace:
+[01-Jun-2019 12:14:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:14:26 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 12:14:26 UTC] PHP Warning:  include_once(): Failed opening '../objects/Products.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 3
+[01-Jun-2019 12:14:26 UTC] PHP Stack trace:
+[01-Jun-2019 12:14:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:14:26 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 12:14:26 UTC] PHP Fatal error:  Class 'Database' not found in /home/ubuntu/workspace/php/products/read.php on line 5
+[01-Jun-2019 12:14:26 UTC] PHP Stack trace:
+[01-Jun-2019 12:14:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:14:26 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 12:17:44 UTC] PHP Warning:  include_once(../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 12:17:44 UTC] PHP Stack trace:
+[01-Jun-2019 12:17:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:17:44 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 12:17:44 UTC] PHP Warning:  include_once(): Failed opening '../config/Database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 12:17:44 UTC] PHP Stack trace:
+[01-Jun-2019 12:17:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:17:44 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 12:17:44 UTC] PHP Warning:  include_once(../objects/Products.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 3
+[01-Jun-2019 12:17:44 UTC] PHP Stack trace:
+[01-Jun-2019 12:17:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:17:44 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 12:17:44 UTC] PHP Warning:  include_once(): Failed opening '../objects/Products.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 3
+[01-Jun-2019 12:17:44 UTC] PHP Stack trace:
+[01-Jun-2019 12:17:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:17:44 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 12:17:44 UTC] PHP Fatal error:  Class 'Database' not found in /home/ubuntu/workspace/php/products/read.php on line 5
+[01-Jun-2019 12:17:44 UTC] PHP Stack trace:
+[01-Jun-2019 12:17:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:17:44 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 12:19:20 UTC] PHP Fatal error:  Class 'Product' not found in /home/ubuntu/workspace/php/products/read.php on line 8
+[01-Jun-2019 12:19:20 UTC] PHP Stack trace:
+[01-Jun-2019 12:19:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:19:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 12:23:08 UTC] PHP Fatal error:  Class 'Product' not found in /home/ubuntu/workspace/php/products/read.php on line 11
+[01-Jun-2019 12:23:08 UTC] PHP Stack trace:
+[01-Jun-2019 12:23:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 12:23:08 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 13:45:30 UTC] PHP Warning:  include_once(../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 3
+[01-Jun-2019 13:45:30 UTC] PHP Stack trace:
+[01-Jun-2019 13:45:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 13:45:30 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:3
+[01-Jun-2019 13:45:30 UTC] PHP Warning:  include_once(): Failed opening '../config/Database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 3
+[01-Jun-2019 13:45:30 UTC] PHP Stack trace:
+[01-Jun-2019 13:45:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 13:45:30 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:3
+[01-Jun-2019 13:45:30 UTC] PHP Warning:  include_once(../objects/Products.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 4
+[01-Jun-2019 13:45:30 UTC] PHP Stack trace:
+[01-Jun-2019 13:45:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 13:45:30 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:3
+[01-Jun-2019 13:45:30 UTC] PHP Warning:  include_once(): Failed opening '../objects/Products.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 4
+[01-Jun-2019 13:45:30 UTC] PHP Stack trace:
+[01-Jun-2019 13:45:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 13:45:30 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:3
+[01-Jun-2019 13:45:30 UTC] PHP Fatal error:  Class 'mainspace\Database' not found in /home/ubuntu/workspace/php/products/read.php on line 6
+[01-Jun-2019 13:45:30 UTC] PHP Stack trace:
+[01-Jun-2019 13:45:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 13:45:30 UTC] PHP   2. require_once() /home/ubuntu/workspace/public/index.php:3
+[01-Jun-2019 13:48:48 UTC] PHP Fatal error:  Class 'Database' not found in /home/ubuntu/workspace/php/products/read.php on line 3
+[01-Jun-2019 13:48:48 UTC] PHP Stack trace:
+[01-Jun-2019 13:48:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 13:48:48 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 13:49:28 UTC] PHP Warning:  require(../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 13:49:28 UTC] PHP Stack trace:
+[01-Jun-2019 13:49:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 13:49:28 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 13:49:28 UTC] PHP Fatal error:  require(): Failed opening required '../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 13:49:28 UTC] PHP Stack trace:
+[01-Jun-2019 13:49:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 13:49:28 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 13:50:06 UTC] PHP Warning:  require(../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 13:50:06 UTC] PHP Stack trace:
+[01-Jun-2019 13:50:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 13:50:06 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 13:50:06 UTC] PHP Fatal error:  require(): Failed opening required '../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 13:50:06 UTC] PHP Stack trace:
+[01-Jun-2019 13:50:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 13:50:06 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 13:52:59 UTC] PHP Warning:  require(/home/ubuntu/workspace/php/products../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 13:52:59 UTC] PHP Stack trace:
+[01-Jun-2019 13:52:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 13:52:59 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 13:52:59 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/php/products../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 13:52:59 UTC] PHP Stack trace:
+[01-Jun-2019 13:52:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 13:52:59 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 13:55:26 UTC] PHP Warning:  require(/home/ubuntu/workspace/php/products../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 13:55:26 UTC] PHP Stack trace:
+[01-Jun-2019 13:55:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 13:55:26 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 13:55:26 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/php/products../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[01-Jun-2019 13:55:26 UTC] PHP Stack trace:
+[01-Jun-2019 13:55:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 13:55:26 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:2
+[01-Jun-2019 13:58:34 UTC] PHP Warning:  require(/home/ubuntu/workspace/public../php/products/read.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 13:58:34 UTC] PHP Stack trace:
+[01-Jun-2019 13:58:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 13:58:34 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/public../php/products/read.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 13:58:34 UTC] PHP Stack trace:
+[01-Jun-2019 13:58:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:05:14 UTC] PHP Warning:  require(/home/ubuntu/workspace/public../php/products/read.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:05:14 UTC] PHP Stack trace:
+[01-Jun-2019 14:05:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:05:14 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/public../php/products/read.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:05:14 UTC] PHP Stack trace:
+[01-Jun-2019 14:05:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:10:30 UTC] PHP Warning:  require(/home/ubuntu/workspace/public../php/config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:10:30 UTC] PHP Stack trace:
+[01-Jun-2019 14:10:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:10:30 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/public../php/config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:10:30 UTC] PHP Stack trace:
+[01-Jun-2019 14:10:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:10:42 UTC] PHP Warning:  require(/home/ubuntu/workspace/public../php/config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:10:42 UTC] PHP Stack trace:
+[01-Jun-2019 14:10:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:10:42 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/public../php/config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:10:42 UTC] PHP Stack trace:
+[01-Jun-2019 14:10:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:11:19 UTC] PHP Warning:  require(/home/ubuntu/workspace/public../php/config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:11:19 UTC] PHP Stack trace:
+[01-Jun-2019 14:11:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:11:19 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/public../php/config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:11:19 UTC] PHP Stack trace:
+[01-Jun-2019 14:11:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:11:35 UTC] PHP Warning:  require(/home/ubuntu/workspace/public../php/config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:11:35 UTC] PHP Stack trace:
+[01-Jun-2019 14:11:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:11:35 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/public../php/config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:11:35 UTC] PHP Stack trace:
+[01-Jun-2019 14:11:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:14:12 UTC] PHP Warning:  require(/home/ubuntu/workspace/public../php/products/read.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:14:12 UTC] PHP Stack trace:
+[01-Jun-2019 14:14:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:14:12 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/public../php/products/read.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:14:12 UTC] PHP Stack trace:
+[01-Jun-2019 14:14:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:15:50 UTC] PHP Warning:  require(/workspace/php/products/read.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:15:50 UTC] PHP Stack trace:
+[01-Jun-2019 14:15:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:15:50 UTC] PHP Fatal error:  require(): Failed opening required '/workspace/php/products/read.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:15:50 UTC] PHP Stack trace:
+[01-Jun-2019 14:15:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:18:42 UTC] PHP Warning:  require(/home/ubuntu/workspace/public../php/products/read.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:18:42 UTC] PHP Stack trace:
+[01-Jun-2019 14:18:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:18:42 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/public../php/products/read.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:18:42 UTC] PHP Stack trace:
+[01-Jun-2019 14:18:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:22:20 UTC] PHP Warning:  require(/home/ubuntu/workspace/public../php/products/read.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:22:20 UTC] PHP Stack trace:
+[01-Jun-2019 14:22:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:22:20 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/public../php/products/read.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:22:20 UTC] PHP Stack trace:
+[01-Jun-2019 14:22:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:23:08 UTC] PHP Warning:  require(/home/ubuntu/workspace/public../php/config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:23:08 UTC] PHP Stack trace:
+[01-Jun-2019 14:23:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:23:08 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/public../php/config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:23:08 UTC] PHP Stack trace:
+[01-Jun-2019 14:23:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:24:19 UTC] PHP Warning:  require(/home/ubuntu/workspace/public../php/config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:24:19 UTC] PHP Stack trace:
+[01-Jun-2019 14:24:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[01-Jun-2019 14:24:19 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/public../php/config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/index.php on line 2
+[01-Jun-2019 14:24:19 UTC] PHP Stack trace:
+[01-Jun-2019 14:24:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:35:58 UTC] PHP Warning:  require(../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:35:58 UTC] PHP Stack trace:
+[02-Jun-2019 08:35:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:35:58 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:35:58 UTC] PHP Fatal error:  require(): Failed opening required '../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:35:58 UTC] PHP Stack trace:
+[02-Jun-2019 08:35:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:35:58 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:39:24 UTC] PHP Warning:  require(../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:39:24 UTC] PHP Stack trace:
+[02-Jun-2019 08:39:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:39:24 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:39:24 UTC] PHP Fatal error:  require(): Failed opening required '../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:39:24 UTC] PHP Stack trace:
+[02-Jun-2019 08:39:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:39:24 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:44:25 UTC] PHP Warning:  require(../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:44:25 UTC] PHP Stack trace:
+[02-Jun-2019 08:44:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:44:25 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:44:25 UTC] PHP Fatal error:  require(): Failed opening required '../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:44:25 UTC] PHP Stack trace:
+[02-Jun-2019 08:44:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:44:25 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:45:07 UTC] PHP Warning:  include(/home/ubuntu/workspace/public../php/products/read.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 2
+[02-Jun-2019 08:45:07 UTC] PHP Stack trace:
+[02-Jun-2019 08:45:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:45:07 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/public../php/products/read.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/index.php on line 2
+[02-Jun-2019 08:45:07 UTC] PHP Stack trace:
+[02-Jun-2019 08:45:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:46:06 UTC] PHP Warning:  require(/home/ubuntu/workspace/public../php/products/read.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 2
+[02-Jun-2019 08:46:06 UTC] PHP Stack trace:
+[02-Jun-2019 08:46:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:46:06 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/public../php/products/read.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/index.php on line 2
+[02-Jun-2019 08:46:06 UTC] PHP Stack trace:
+[02-Jun-2019 08:46:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:46:24 UTC] PHP Warning:  require(../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:46:24 UTC] PHP Stack trace:
+[02-Jun-2019 08:46:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:46:24 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:46:24 UTC] PHP Fatal error:  require(): Failed opening required '../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:46:24 UTC] PHP Stack trace:
+[02-Jun-2019 08:46:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:46:24 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:46:57 UTC] PHP Warning:  include(/home/ubuntu/workspace/public../php/products/read.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 2
+[02-Jun-2019 08:46:57 UTC] PHP Stack trace:
+[02-Jun-2019 08:46:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:46:57 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/public../php/products/read.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/index.php on line 2
+[02-Jun-2019 08:46:57 UTC] PHP Stack trace:
+[02-Jun-2019 08:46:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:52:05 UTC] PHP Warning:  require(../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:52:05 UTC] PHP Stack trace:
+[02-Jun-2019 08:52:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:52:05 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:52:05 UTC] PHP Fatal error:  require(): Failed opening required '../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:52:05 UTC] PHP Stack trace:
+[02-Jun-2019 08:52:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:52:05 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:54:26 UTC] PHP Warning:  include(../../php/products/read.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/public/index.php on line 2
+[02-Jun-2019 08:54:26 UTC] PHP Stack trace:
+[02-Jun-2019 08:54:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:54:26 UTC] PHP Warning:  include(): Failed opening '../../php/products/read.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/public/index.php on line 2
+[02-Jun-2019 08:54:26 UTC] PHP Stack trace:
+[02-Jun-2019 08:54:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:54:44 UTC] PHP Warning:  require(../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:54:44 UTC] PHP Stack trace:
+[02-Jun-2019 08:54:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:54:44 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:54:44 UTC] PHP Fatal error:  require(): Failed opening required '../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:54:44 UTC] PHP Stack trace:
+[02-Jun-2019 08:54:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:54:44 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:55:12 UTC] PHP Warning:  require(../../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:55:12 UTC] PHP Stack trace:
+[02-Jun-2019 08:55:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:55:12 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:55:12 UTC] PHP Fatal error:  require(): Failed opening required '../../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:55:12 UTC] PHP Stack trace:
+[02-Jun-2019 08:55:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:55:12 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:55:37 UTC] PHP Warning:  require(/home/ubuntu/workspace/php/products../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:55:37 UTC] PHP Stack trace:
+[02-Jun-2019 08:55:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:55:37 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:55:37 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/php/products../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:55:37 UTC] PHP Stack trace:
+[02-Jun-2019 08:55:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:55:37 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:56:16 UTC] PHP Warning:  require(../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:56:16 UTC] PHP Stack trace:
+[02-Jun-2019 08:56:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:56:16 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:56:16 UTC] PHP Fatal error:  require(): Failed opening required '../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:56:16 UTC] PHP Stack trace:
+[02-Jun-2019 08:56:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:56:16 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:56:25 UTC] PHP Warning:  require(config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:56:25 UTC] PHP Stack trace:
+[02-Jun-2019 08:56:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:56:25 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:56:25 UTC] PHP Fatal error:  require(): Failed opening required 'config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:56:25 UTC] PHP Stack trace:
+[02-Jun-2019 08:56:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:56:25 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:59:34 UTC] PHP Warning:  require(../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:59:34 UTC] PHP Stack trace:
+[02-Jun-2019 08:59:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:59:34 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:59:34 UTC] PHP Fatal error:  require(): Failed opening required '../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:59:34 UTC] PHP Stack trace:
+[02-Jun-2019 08:59:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:59:34 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:59:55 UTC] PHP Warning:  require(../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:59:55 UTC] PHP Stack trace:
+[02-Jun-2019 08:59:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:59:55 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 08:59:55 UTC] PHP Fatal error:  require(): Failed opening required '../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 08:59:55 UTC] PHP Stack trace:
+[02-Jun-2019 08:59:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 08:59:55 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 09:00:35 UTC] PHP Warning:  require(../config/Database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 09:00:35 UTC] PHP Stack trace:
+[02-Jun-2019 09:00:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 09:00:35 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 09:00:35 UTC] PHP Fatal error:  require(): Failed opening required '../config/Database.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/products/read.php on line 2
+[02-Jun-2019 09:00:35 UTC] PHP Stack trace:
+[02-Jun-2019 09:00:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 09:00:35 UTC] PHP   2. include() /home/ubuntu/workspace/public/index.php:2
+[02-Jun-2019 16:51:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/public/index.php on line 99
+[02-Jun-2019 16:51:27 UTC] PHP Stack trace:
+[02-Jun-2019 16:51:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 16:51:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/public/index.php on line 99
+[02-Jun-2019 16:51:40 UTC] PHP Stack trace:
+[02-Jun-2019 16:51:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 16:52:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/public/index.php on line 99
+[02-Jun-2019 16:52:00 UTC] PHP Stack trace:
+[02-Jun-2019 16:52:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 16:52:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/public/index.php on line 99
+[02-Jun-2019 16:52:24 UTC] PHP Stack trace:
+[02-Jun-2019 16:52:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 16:53:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/public/index.php on line 99
+[02-Jun-2019 16:53:06 UTC] PHP Stack trace:
+[02-Jun-2019 16:53:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 16:53:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/public/index.php on line 99
+[02-Jun-2019 16:53:28 UTC] PHP Stack trace:
+[02-Jun-2019 16:53:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 16:54:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/public/index.php on line 99
+[02-Jun-2019 16:54:22 UTC] PHP Stack trace:
+[02-Jun-2019 16:54:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 16:54:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/public/index.php on line 99
+[02-Jun-2019 16:54:35 UTC] PHP Stack trace:
+[02-Jun-2019 16:54:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 16:55:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/public/index.php on line 99
+[02-Jun-2019 16:55:28 UTC] PHP Stack trace:
+[02-Jun-2019 16:55:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[02-Jun-2019 17:17:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/public/index.php on line 99
+[02-Jun-2019 17:17:06 UTC] PHP Stack trace:
+[02-Jun-2019 17:17:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
