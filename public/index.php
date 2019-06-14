@@ -1,7 +1,7 @@
 <?php
-include '../php/products/read.php';
+require __DIR__ . "/../php/products/read.php";
+session_start();
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +17,7 @@ include '../php/products/read.php';
   
   <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
 
 </head>
 
@@ -54,7 +54,8 @@ include '../php/products/read.php';
         <a class="btn btn-primary btn-lg" data-toggle="collapse" href="#collapseFilter" role="button" aria-expanded="false" aria-controls="collapseFilter">Filter products</a>
       </p>
       
-      <form method="POST" action="test.php">
+      <form method="GET" action="../php/products/submit.php">
+  
         <div class="collapse" id="collapseFilter">
           <div class="card card-body">
             <div class="d-flex flex-row">
@@ -63,24 +64,29 @@ include '../php/products/read.php';
               <div class="d-flex flex-column">
               <strong><h6>Product catagory types:</h6></strong>
                  
-                   <div>
-                     <div class="d-flex flex-column custom-control custom-checkbox">
-                     <input type="checkbox" class="custom-control-input" id="type1" checked>
-                     <label class="custom-control-label type-filter" for="type1">Type 1</label>
-                     
-                     
-                     <input type="checkbox" class="custom-control-input" id="type2" checked>
-                     <label class="custom-control-label type-filter" for="type2">Type 2</label> 
-                     
-                     <input type="checkbox" class="custom-control-input" id="type3" checked>
-                     <label class="custom-control-label type-filter" for="type3">Type 3</label> 
-                     
-                     <input type="checkbox" class="custom-control-input" id="type4" checked>
-                     <label class="custom-control-label type-filter" for="type4">Type 4</label>
+                   <div class="d-flex flex-column custom-control custom-checkbox">
+                     <div class="form-check">
+                       <input name="type1" type="checkbox" class="custom-control-input" id="type1" <?php echo ($_SESSION['types'][0]=='on' ? 'checked' : '');?>>
+                       <label class="custom-control-label type-filter" for="type1">Type 1</label>
                      </div>
+                     
+                     <div class="form-check">
+                       <input name="type2" type="checkbox" class="custom-control-input" id="type2" <?php echo ($_SESSION['types'][1]=='on' ? 'checked' : '');?>>
+                       <label class="custom-control-label type-filter" for="type2">Type 2</label> 
+                     </div>
+                     
+                     <div class="form-check">
+                       <input name="type3" type="checkbox" class="custom-control-input" id="type3" <?php echo ($_SESSION['types'][2]=='on' ? 'checked' : '');?>>
+                       <label class="custom-control-label type-filter" for="type3">Type 3</label> 
+                     </div>
+                     
+                     <div class="form-check">
+                       <input name="type4" type="checkbox" class="custom-control-input" id="type4" <?php echo ($_SESSION['types'][3]=='on' ? 'checked' : '');?>>
+                       <label class="custom-control-label type-filter" for="type4">Type 4</label>
+                     </div>
+                     
                    </div>
-                 
-              </div>
+                 </div>
               
               <div class="filter-space"></div>
               
@@ -88,15 +94,16 @@ include '../php/products/read.php';
               <strong><h6>Enter a search query:</h6></strong>
               
                 <div class="md-form active-cyan active-cyan-2 mb-3 d-flex flex-row">
-                    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                    <input name="search" class="form-control" type="text" placeholder="Search" aria-label="Search">
                 </div> 
+                
               </div>
               
-              
             </div>
+              
               <div class="d-flex justify-content-end">
                     <button class="btn btn-primary border" type="submit">
-                      Search product
+                      Apply filter
                       <i class="fa fa-search"></i>
                     </button>
               </div>
@@ -107,7 +114,7 @@ include '../php/products/read.php';
     </div>
     </header>
 
-    <div class="d-flex flex-row">
+    <div class="d-flex flex-row justify-content-center">
 
 <?php
     
@@ -115,7 +122,8 @@ include '../php/products/read.php';
     $rowCount = 0;
     $bootstrapColWidth = 12 / $numOfCols;
 
-    foreach($results as $result){
+    if($results != null) {
+      foreach($results as $result){
 ?>
 
       <div class="col-md-<?php echo $bootstrapColWidth; ?> product-box">
@@ -133,13 +141,21 @@ include '../php/products/read.php';
     
 <?php 
     
-     $rowCount++;
-     if($rowCount % $numOfCols == 0) echo '</div><div class="row">';
-    
-     } ?>
+        $rowCount++;
+        if($rowCount % $numOfCols == 0) echo '</div><div class="row">';
+        
+      }
+     } else {
+        echo "
+              <div class='alert alert-info' role='alert'>
+                <strong>No products found!</strong> Doubble check your filter criteria.
+              </div>
+              
+             ";    
+       }?>
 
     </div>
-  </div>
+  </div> 
 
   <footer class="py-5 bg-dark">
     <div class="container">
@@ -149,6 +165,7 @@ include '../php/products/read.php';
 
   <script src="../vendor/jquery/jquery.min.js"></script>
   <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
 
 </body>
 </html>

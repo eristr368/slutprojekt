@@ -20,7 +20,7 @@ CREATE TABLE Product_catagories (
 CREATE TABLE Product (
 	product_id INT NOT NULL AUTO_INCREMENT,
 	product_name VARCHAR(50) NOT NULL,
-	img VARCHAR(255) null DEFAULT 'img/500x325.png',
+	img VARCHAR(255) NOT NULL DEFAULT 'img/500x325.png',
 	description TEXT,
 	catagory_id INT NOT NULL,
 	
